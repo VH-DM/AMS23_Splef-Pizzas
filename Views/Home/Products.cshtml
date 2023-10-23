@@ -1,0 +1,47 @@
+
+@{
+    ViewData["Title"] = "Products - ";
+}
+
+<h1 id="titu">Cadastre seus produtos</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <a asp-controller="Home" asp-action="CadProdutos" class="btn btn-info">Adicionar</a>    
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Id</th>
+      <th scope="col">Preço</th>
+      <th scope="col">Ação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1.</th>
+      <td>jerson</td>
+      <td>2</td>
+      <td>3</td>
+      <td><button type="button" class="btn btn-primary">Editar</button>
+      <button type="button" class="btn btn-danger">Excluir</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2.</th>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td><button type="button" class="btn btn-primary">Editar</button>
+      <button type="button" class="btn btn-danger">Excluir</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3.</th>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td><button type="button" class="btn btn-primary">Editar</button>
+      <button type="button" class="btn btn-danger">Excluir</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
